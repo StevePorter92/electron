@@ -16,11 +16,8 @@ trait Installer
         if ($force || confirm('Would you like to install the NativePHP NPM dependencies?', true)) {
             note('Installing NPM dependencies (This may take a while)...');
 
-            if (! $installer) {
-                $this->installDependencies();
-            } else {
-                $this->installDependencies(installer: $installer);
-            }
+            $this->installDependencies(installer: $installer);
+
             $this->output->newLine();
         }
     }
