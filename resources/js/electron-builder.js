@@ -40,7 +40,7 @@ let updaterConfig = {};
 console.log('Binary Source: ', phpBinaryPath);
 console.log('Binary Filename: ', phpBinaryFilename);
 
-const binarySrcDir = join(phpBinaryPath, targetOs, binaryArch);
+const binarySrcDir = join(phpBinaryPath, targetOs, isBuilding ? binaryArch : process.arch);
 const binaryDestDir = join(__dirname, 'resources/php');
 
 console.log("Arch: ", process.arch)
