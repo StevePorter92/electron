@@ -19,7 +19,7 @@
         "php": "^8.1",
         "illuminate/contracts": "^10.0",
         "laravel/prompts": "^0.1.1",
-        "nativephp/laravel": "*",
+        "nativephp/laravel": "dev-main",
         "nativephp/php-bin": "*",
         "spatie/laravel-package-tools": "^1.14.0"
     },
@@ -70,6 +70,12 @@
             }
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/StevePorter92/nativephp-laravel"
+        }
+    ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": false
 }
