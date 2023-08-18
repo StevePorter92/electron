@@ -20,7 +20,7 @@
         "illuminate/contracts": "^10.0",
         "laravel/prompts": "^0.1.1",
         "nativephp/laravel": "dev-main",
-        "nativephp/php-bin": "*",
+        "nativephp/php-bin": "dev-main",
         "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
@@ -74,6 +74,10 @@
         {
             "type": "git",
             "url": "https://github.com/StevePorter92/nativephp-laravel"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/StevePorter92/nativephp-php-bin"
         }
     ],
     "minimum-stability": "dev",
