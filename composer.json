@@ -20,7 +20,7 @@
         "illuminate/contracts": "^10.0",
         "laravel/prompts": "^0.1.1",
         "nativephp/laravel": "dev-main",
-        "nativephp/php-bin": "dev-main",
+        "nativephp/php-bin": "dev-main#2ed40424a95bcf08712a8eea8284ef4006380a94",
         "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
